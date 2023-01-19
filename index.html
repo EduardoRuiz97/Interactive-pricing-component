@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+
+  <main>
+
+    <h1 class="main__title">Simple, traffic-based pricing</h1>
+    <p class="main__subtitle">Sign-up for our 30-day trial. No credit card required.</p>
+
+    <section class="packaging__price">
+
+      <div class="price__container">
+        <p class="container__subtitle">100k Pageviews</p>
+
+        <div class="slidecontainer">
+          <input type="range" min="0" max="4" value="2" class="slider" id="myRange">
+        </div>
+
+        <span class="price"><h1 class="value">$16.00</h1>/month</span>
+        <br>
+        <span class="packaging__info">
+          Monthly Billing
+
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider__round"></span>
+          </label>
+
+          Yearly Billing 
+          <p class="discount">-25%</p>
+        </span>
+      </div>
+
+      <div class="benefits__container">
+
+        <div class="benefits__items">
+          <p class="item"><img src="./images/icon-check.svg" alt="check__icon" class="check__icon">Unlimited websites</p>
+          <p class="item"><img src="./images/icon-check.svg" alt="check__icon" class="check__icon">100% data ownership</p>
+          <p class="item"><img src="./images/icon-check.svg" alt="check__icon" class="check__icon">Email reports</p>
+        </div>
+        <button class="start__btn">Start my trial</button>
+
+      </div>
+
+    </section>
+
+
+    <script src="./script.js"></script>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eduardo</a>.
+  </footer>
+</body>
+</html>
