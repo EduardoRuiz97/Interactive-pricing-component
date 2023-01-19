@@ -23,6 +23,7 @@
 body {
  font-size: 15px; 
  background: url("./images/pattern-circles.svg") no-repeat top 5% left 50%, url("./images/bg-pattern.svg") no-repeat;
+ background-size: contain cover;
  background-color: var(--White__PricingComponentBackground);
 }
 
